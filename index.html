@@ -446,7 +446,7 @@
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4>Microsoft Certified: Power Bi Data Analyst Associate</h4>
+                                                                    <h4>Microsoft Certified: Power Bi Data Analyst Associate (PL-300)</h4>
                                                                     <span>Microsoft</span>
                                                                 </div>
                                                                 
@@ -926,6 +926,29 @@
                 <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
 
                     <!-- Start Single blog -->
+                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
+                        <div class="rn-blog" data-bs-toggle="modal" data-bs-target="#exampleModalCenters">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/DSE Chatbot.png" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="javascript:void(0)">Data Science</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><i class="feather-clock"></i> 2 min read</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#blog-9">AI-Powered Chatbot for Student Support: My DSE FAQ Project
+                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
                         <div class="rn-blog" data-bs-toggle="modal" data-bs-target="#exampleModalCenters">
                             <div class="inner">
@@ -979,6 +1002,11 @@
                     <!-- End Single blog -->
 
                     <!-- Start Single blog -->
+                    
+                    <!-- End Single blog -->
+
+                </div>
+                <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
                         <div class="rn-blog" data-bs-toggle="modal" data-bs-target="#exampleModalCenters">
                             <div class="inner">
@@ -1001,10 +1029,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single blog -->
-
-                </div>
-                <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
 
                     <!-- Start Single blog -->
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
@@ -2104,6 +2128,192 @@ I plan to dive into top Kaggle solutions, analyze their approaches, and refine m
                          <P><B> This project marks just the beginning of my machine learning journey. The Titanic may have sunk, but my curiosity in data science is only rising. 🚀 </B></P>
                        
             
+                        </div>
+
+                        <!-- Comment Section Area Start -->
+                       
+                        <!-- Comment Section End -->
+                    </div>
+                    <!-- End of .modal-body -->
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="blog-9" tabindex="-2" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-news" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i data-feather="x"></i></span>
+                        </button>
+                    </div>
+
+                    <!-- End of .modal-header -->
+
+                    <div class="modal-body">
+                        <img src="assets/images/DSE Chatbot.png" alt="news modal" class="img-fluid modal-feat-img">
+                        <div class="news-details">
+                            <span class="date">23 Oct, 2025</span>
+                            <h2 class="title">AI-Powered Chatbot for Student Support: My DSE FAQ Project</h2>
+                            <h4>Introduction</h4>
+                            <p>Ever spent hours hunting for answers about DSE MBA admissions or waitlist movements? PDFs, emails, and multiple websites can make the process painfully slow for applicants. I asked myself: Can AI make this smarter and faster?
+                            </p>
+    
+                            <p>That question led me to build the DSE FAQ Chatbot — an AI assistant that provides instant, accurate answers to 150+ student queries directly on Telegram, powered entirely on free-tier infrastructure.
+                                
+                                </p>
+                            <h4>Project Overview</h4>
+                            
+                           <p>The chatbot combines Large Language Models (LLM) with RAG (Retrieval-Augmented Generation), leveraging Python, FAISS, Hugging Face Datasets, and Render for deployment. It’s designed not just to answer, but to think, learn, and improve over time.
+
+The project goal was clear: build an AI assistant that is accurate, fast, and cost-effective, while maintaining structured logs for analysis.
+                        `   <h4>How the Chatbot Thinks: Behind the Scenes</h4>
+                            <p>1. Understanding Queries
+
+When a student types something like:
+
+“Hey, what’s the MBA (BA) cut-off?”
+
+The bot first splits the query:
+
+“Hey” → conversational
+
+“What’s the MBA (BA) cut-off?” → factual
+
+This ensures the bot doesn’t get distracted by small talk — just like humans filter noise before answering.
+
+                                </p>
+                                
+                                    <H4>
+                                      2. Session Memory
+                                    </H4>
+                                    <p>Each chat gets a session ID, functioning like a notebook for the conversation.
+
+Previous questions are remembered.
+
+Follow-ups like “What about HRD?” are understood in context.
+
+Session data is stored in Render-hosted PostgreSQL — no local files, no lost data.
+
+                                 </p>
+                                 <H4>
+                                    3. Analysis & Reasoning
+                                </H4>
+                                <p>For every factual query, the bot:
+
+Formats the question for clarity.
+
+Checks its cache — if answered before, it responds instantly.
+
+Uses LLM reasoning if no cached answer exists.
+
+Evaluates confidence — if below 70%, it retrieves context from the indexed 150+ FAQs using FAISS.
+
+This is RAG in action — a fact-checking layer that ensures accuracy and contextual relevance.
+
+                             </p>
+                             <H4>
+                                4. Logging & Feedback Loop
+                            </H4>
+                            <p>Every interaction is logged with:
+
+User query
+
+Bot response
+
+Confidence score
+
+Response time
+
+Feedback is collected through a dedicated API endpoint. These logs form the foundation for continuous improvement, allowing me to measure:
+
+Accuracy
+
+Latency
+
+User satisfaction
+                         </p>
+                          <H4>
+                              5. Free-Tier Engineering
+                            </H4>
+                            <p>Building this AI assistant on $0 infrastructure was a challenge.
+
+FastAPI handles queries and feedback.
+
+Render hosts the backend and database.
+
+FAISS provides semantic search over FAQs.
+
+Hugging Face Datasets store static content efficiently.
+
+Optimizations like warm caching, async API calls, and token management ensured fast, reliable responses despite free-tier limits.
+                         </p>
+
+                          <H4>
+                                Challenges & Learnings
+
+
+                            </H4>
+                            <P>
+                                Accuracy & Coverage: Prompt engineering + dataset updates improved answer quality.
+
+Latency: Free-tier sleeping servers were handled with caching tricks.
+
+Session Coherence: Building conversational context improved user experience.
+
+Budget Constraints: Demonstrated that meaningful AI can run on minimal costs.
+
+Biggest takeaway? AI is not just coding. It’s about designing systems, thinking like an analyst, and iterating quickly.
+                            </P>
+                            <H4>
+                                The Impact
+                            </H4>
+                            <P>
+                    The chatbot:
+
+Answers 150+ FAQs instantly on Telegram.
+
+Stores every interaction for data-driven improvement.
+
+Operates completely free, showing that resourceful engineering and smart design can overcome constraints.
+</P>
+                          <H4>
+                                Future Plans
+                            </H4>
+                            <p>Update RAG with recent waitlists, admission notices, and placement reports.
+
+Integrate user feedback analytics to track friendliness and accuracy.
+
+Build an admin dashboard to monitor response speed, coverage, and usage trends.
+
+Extend coverage to more courses and departments, supporting more students.</p>
+                                <H4>Technical Stack
+
+                                </H4>
+                                <P>
+                                    Backend: Python + FastAPI
+
+RAG Index: FAISS
+
+Database: PostgreSQL (Render-hosted)
+
+LLM: OpenAI / Fireworks GPT-OSS-20B
+
+Data Management: Hugging Face Datasets
+
+Frontend: Telegram Bot API
+                                </P>
+                                <H>
+                                    Conclusion
+                                </H>
+                                <P>
+                                    This project was more than a chatbot. It was a lesson in applied analytics, AI engineering, and resourceful problem-solving. Every log, feedback, and confidence score is a step toward making the system smarter — and helping students faster.
+                                </P>
+                          
+                         <p>🔗Telegram Bot <a href="https://telegram.me/DSE_Chat_bot" target="_blank">https://telegram.me/DSE_Chat_bot</a></p>
+                         <p>💻 GitHub Repository (Code & Notebooks): <a href="https://github.com/sinankmuriyanal/DSE_Telegram_Bot" target="_blank">Telegram Bot Repo</a></p>
+                         <p>💻 GitHub Repository (Code & Notebooks): <a href="https://github.com/sinankmuriyanal/DSE_Chat_Bot_API" target="_blank">LLM API Repo</a></p>
+                        
                         </div>
 
                         <!-- Comment Section Area Start -->
