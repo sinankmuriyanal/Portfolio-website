@@ -17396,18 +17396,20 @@ span.sr-only {
   display: block;
   overflow: hidden;
   border-radius: 10px;
+  height: 220px;
 }
 .rn-portfolio .inner .thumbnail a img,
 .rn-blog .inner .thumbnail a img {
   width: 100%;
   transition: var(--transition);
-  height: auto;
+  height: 100%;
   object-fit: cover;
+  object-position: center top;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-portfolio .inner .thumbnail a img,
 .rn-blog .inner .thumbnail a img {
-    height: inherit;
+    height: 100%;
   }
 }
 .rn-portfolio .inner .thumbnail a video,
