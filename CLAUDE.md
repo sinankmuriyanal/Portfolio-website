@@ -7,3 +7,4 @@
 - [2026-04-18] update: assets/images/dse-attendance.jpeg,assets/images/jobradar.jpeg,assets/images/kerala-election.png
 - [2026-04-18] docs(changelog): sync 2026-04-18
 - [2026-04-18] move recent projects to top, update image filenames
+- [2026-05-10] Merge pull request #1 from sinankmuriyanal/claude/review-ui-ux-repo-SCak3
